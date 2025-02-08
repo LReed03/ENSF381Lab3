@@ -12,41 +12,51 @@
     border: 1px solid darkblue;
     text-align: center;
 }
-.item1{
-    flex: 1;
-    padding:20px;
-    margin: 0;
-    text-align: center;
-    background-color: #333;
-
-}
-
 .item img {
     width: 100px;
     height: 100px;
     display: block;
     margin: 0 auto 10px;
 }
-.item1:hover{
-    background-color: #bdbbbb;
-    
+
+.item2 {
+    flex: 1;
+    padding: 20px;
+    margin: 0px;
+    background-color: #333;
+    border: 0px;
+    text-align: center;
 }
 
-.box_text{
-    color: white;
-    margin: 0;
-    padding: 10px;
+.item2:hover {
+    background-color: #bdbbbb;
+}
+
+.drop_text {
+    color:white;
     text-decoration: none;
 }
 
-
-
-.dropdown{
+.dropdown {
     display: none;
-
-
+    position: absolute;
+    text-align: left;
+    margin: 20px;
 }
 
-.dropdown:hover{
+.dropdown div {
+    color: black;
+    border-bottom: solid 1px;
+    border-color: lightgrey;
+    margin: 0px;
+    padding-right: 10px;
+}
+
+.item2:hover .dropdown {
+    display:block;
     background-color: white;
+}
+
+.dropdown div:hover {
+    background-color: #bdbbbb;
 }
