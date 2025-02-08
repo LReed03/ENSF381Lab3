@@ -3,6 +3,11 @@ body{
     padding:0;
 }
 
+<<<<<<< HEAD
+.class2{
+
+}
+=======
 .table2{
     border-spacing: 0 20px;
 }
@@ -41,3 +46,4 @@ p{
     font-family: arial;
     color:#3d3d3d;
 }
+>>>>>>> fa94f33e8731ba03b22e029e8b569e2cd1342321
