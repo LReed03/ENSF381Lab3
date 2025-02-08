@@ -12,9 +12,41 @@
     border: 1px solid darkblue;
     text-align: center;
 }
+.item1{
+    flex: 1;
+    padding:20px;
+    margin: 0;
+    text-align: center;
+    background-color: #333;
+
+}
+
 .item img {
     width: 100px;
     height: 100px;
     display: block;
     margin: 0 auto 10px;
+}
+.item1:hover{
+    background-color: #bdbbbb;
+    
+}
+
+.box_text{
+    color: white;
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+
+.dropdown{
+    display: none;
+
+
+}
+
+.dropdown:hover{
+    background-color: white;
 }
